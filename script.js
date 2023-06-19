@@ -68,6 +68,7 @@ rightArrow.addEventListener ('click', () => {
 	document.querySelector(".tagline").innerHTML = slides[numberSlideActuel].tagLine;
 	createDots(numberSlideActuel);
 } );
+	// end right
 	//left 
 leftArrow.addEventListener ('click', () => {
 	if (numberSlideActuel > 0) {
@@ -80,4 +81,4 @@ leftArrow.addEventListener ('click', () => {
 	document.querySelector(".tagline").innerHTML = slides[numberSlideActuel].tagLine;
 	createDots(numberSlideActuel);
 } );
-// Arrow control sliders //
+// end Arrow control sliders //
