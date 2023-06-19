@@ -19,6 +19,7 @@ const slides = [
 
 
 
+
 const leftArrow =document .querySelector ('.arrow_left');
 const rightArrow =document .querySelector ('.arrow_right');
 numberOffSlides =  slides.length;
